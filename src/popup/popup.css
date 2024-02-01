@@ -1,0 +1,101 @@
+body {
+    font-size: 12px;
+    font-family: 'Trebuchet MS', 'Noto Sans UI', 'Segoe UI', 'Lucida Grande', Arial, sans-serif;
+    margin: 0;
+    user-select: none;
+    color: #333;
+}
+
+.box {
+    text-align: center;
+    padding: 18px 6px 0px;
+}
+
+#timetable {
+    width: 160px;
+    margin: 0 auto;
+}
+
+#daytable {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#daytable tr {
+    font-size: 13px;
+    cursor: default;
+}
+
+#daytable td, #daytable th {
+    border-bottom: 0px solid #ddd;
+    padding: 2px 5px;
+}
+
+#daytable th {
+    color: black;
+    text-align: center;
+    font-weight: normal;
+    background-color: #eee;
+    height: 20px;
+}
+
+#daytables tr:hover {
+    background-color: #fff;
+}
+
+#time-to-next {
+    font-weight: normal;
+}
+
+.time-label {
+    text-align: left;
+}
+
+.time {
+    text-align: right;
+}
+
+.next-time {
+    color: #2b804e;
+    font-weight: bold;
+}
+
+a:focus {
+    outline: 0 !important;
+}
+
+#settings-div {
+    position: absolute;
+    top: 10px;
+    right: 12px;
+}
+
+#message {
+    margin: 1em 0 .4em;
+}
+
+#time-left {
+    margin-bottom: 1em;
+    font-weight: bold;
+}
+
+.footer-div {
+    background-color: #eee;
+    text-align: right;
+}
+
+.footer-div a {
+    color: #333;
+    text-decoration: none;
+}
+
+.footer-div a:hover {
+    color: #000;
+}
+
+.footer-div img {
+    width: 15px;
+    margin: 0 0px -3px;
+    padding: 5px 5px;
+}

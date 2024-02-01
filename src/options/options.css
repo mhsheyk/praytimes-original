@@ -1,0 +1,121 @@
+a {
+    text-decoration: none !important;
+}
+
+#add-location-box {
+    margin-bottom: 2em;
+}
+
+#found-locations li {
+    list-style-type: none;
+    margin-left: 0;
+    margin-top: 4px;
+}
+
+#found-locations li a:hover {
+    text-decoration: underline !important;
+}
+
+#location-loading, #audio-loading {
+    display: none;
+}
+
+label a.delete-item {
+    opacity: 0;
+    text-decoration: none;
+    padding: 0 8px;
+}
+
+label:hover a.delete-item {
+    opacity: 1;
+    -webkit-transition: 500ms opacity;
+    color: #bbb;
+    font-weight: bold;
+}
+
+label:hover a.delete-item:hover {
+    color: #333;
+}
+
+.field-container select {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.comment {
+    color: gray;
+}
+
+.comment.spaced {
+    padding-top: .5em;
+}
+
+.comment.indent {
+    padding-left: 24px;
+}
+
+.suboptions.column.row {
+    padding-left: 2px !important;
+}
+
+#about-content img {
+    width: 64px;
+    margin-bottom: -1em
+}
+
+#version {
+    font-size: smaller;
+    padding-left: 1em;
+    color: gray;
+}
+
+#play, #stop {
+    min-width: 5.5em;
+}
+
+label .triangle {
+    display: none;
+}
+
+#calculation span.label {
+    display: inline-block;
+    min-width: 6.5em;
+}
+
+#calculation div.suboptions>div {
+    margin-top: 5px;
+}
+
+#calculation>div>div.row {
+    margin-bottom: -1em;
+}
+
+#calculation div.suboptions input[type="text"] {
+    width: 5em;
+}
+
+#calculation div.suboptions select {
+    min-width: 10em;
+}
+
+#calculation div.suboptions {
+    margin: 0 0 2.5em;
+}
+
+#calculation div.radio-option {
+    display: inline-block;
+    padding-right: 8px;
+}
+
+#calculation div.suboptions.column.row {
+    margin-bottom: -1.2em;
+}
+
+#calculation label[disabled='disabled'] {
+    color: gray;
+    cursor: default !important;
+}
+
+#calculation input[disabled='disabled'] {
+    cursor: default !important;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Pray Times! Options</title>
+    <link rel="icon" type="image/png" href="/icons/icon.png" />
+    
+    <link rel="stylesheet" type="text/css" href="chrome-options/chrome-bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="chrome-options/chrome-options.css" />
+    <link rel="stylesheet" type="text/css" href="options.css" />
+
+</head>
+
+<body class="chrome-bootstrap">
+    <div class="frame">
+        <div class="navigation">
+            <h1 class="chrome-options-title"></h1>
+            <ul id="main-menu" class="menu">
+            </ul>
+            <ul class="menu about">
+                <li>
+                    <a href="#about">About</a>
+                </li>
+            </ul>
+        </div>
+        <div class="mainview view">
+            <div id="about">
+                <header>
+                    <h1>About</h1>
+                </header>
+                <div class="content">
+                    <p>Pray Times!</p>
+                </div>
+            </div>
+        </div>
+        <div class="save-container">
+            <span class="auto">Saved!</span>
+            <button disabled>Save</button>
+        </div>
+    </div>
+    
+    <div style="display: none;">
+        <div id='about-content'>
+            <img src="/icons/icon.svg">
+            <h3>Pray Times!<span id="version"></span></h3>
+            <p>Display daily Muslim prayer times</p>
+            <p style="line-height: 1.5em">
+                By: <a href="http://zarrabi.info">Hamid Zarrabi-Zadeh</a><br>
+                Website: <a href="http://praytimes.org">PrayTimes.org</a>
+            </p>
+            <button id="contact">Contact</button>
+        </div>
+        <input type="file" id="local-audio-file"></input>
+    </div>
+    
+    <script src="/src/lib/storage.js"></script>
+    <script src="/src/lib/jquery.min.js"></script>
+    <script src="/src/lib/utils.js"></script>
+    <script src="/src/lib/praytimes.js"></script>
+
+    <script src="chrome-options/dom.js"></script>
+    <script src="chrome-options/util.js"></script>
+    <script src="chrome-options/chrome-options.js"></script>
+
+    <script src="tabs.js"></script>
+    <script src="options.js"></script>
+</body>
+</html>
